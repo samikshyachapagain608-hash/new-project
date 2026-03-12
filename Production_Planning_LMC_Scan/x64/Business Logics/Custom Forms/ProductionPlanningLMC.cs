@@ -2270,7 +2270,7 @@ namespace Production_Planning_LMC
                 // Add line
                 oReceipt.Lines.Add();
 
-                // 5️⃣ Add Document
+                // Add Document
                 int ret = oReceipt.Add();
                 if (ret != 0)
                 {
