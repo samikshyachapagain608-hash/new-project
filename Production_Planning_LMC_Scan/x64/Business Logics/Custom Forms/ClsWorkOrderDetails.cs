@@ -515,7 +515,7 @@ namespace Production_Planning_LMC
         {
             try
             {
-                // 1. Get Engine/Chassis Data
+                // Get Engine/Chassis Data
                 string queryEngChas = $@"
             SELECT T0.""U_EngineNo"", T0.""U_ChasisNo"", T0.""U_LotNo"", T0.""U_EnChNo""
             FROM ""@ENGCHASPO"" T0
